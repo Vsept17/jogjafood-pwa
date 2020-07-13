@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.brand-logo{
+    margin: 0 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px 10px 10px;
+    background-color: white;
+    background-size: cover;
+ }
+
+ p{
+     text-align: left;
+ }
+
+ h4{
+     font-weight: bold;
+     margin: 15px 0;
+ }
+
+ .teks{
+     font-size: 17px;
+     margin: 10px 0;
+     text-align: left;
+ }
+ .btn{
+     margin: 10px;;
+ }
+main{
+    margin: 15px 0;
+}
+
+
+/*footer*/
+.copyright{
+    border-top: 1px solid gainsboro ;
+    margin: 0 20px;
+  }
+  
+.copyright p{
+    font-size: 14px;
+    margin: 10px 10px 0 20px;
+    padding-bottom: 10px;
+  
+  }

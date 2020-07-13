@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00897B"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="content/style/materialize.min.css">
+    <link rel="stylesheet" href="content/style/style.css">
+    <title>Jogja Foodies</title>
+</head>
+
+<body class="amber lighten-4">
+  <nav class="amber darken-2">
+    <p class="brand-logo left">Jogja Foodies</p>
+    <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="topnav right hide-on-med-and-down"></ul>
+  </nav>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="content/assets/image-bg.jpg">
+        </div>
+        <a href="#"><img class="circle" src="content/assets/profile.jpg"></a>
+        <a href="#"><span class="black-text name">M Nur Septian</span></a>
+        <a href="#"><span class="black-text email">verzchseptian@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect" href="#home"><i class="material-icons">home</i>Home</a></li>
+    <li><a class="waves-effect" href="#food"><i class="material-icons">restaurant_menu</i>Daftar Makanan</a></li>
+    <li><a class="waves-effect" href="#gallery"><i class="material-icons">photo_library</i>Gallery</a></li>
+    <li><a class="waves-effect" href="#about"><i class="material-icons">person</i>About</a></li>
+  </ul>
+
+  <main>
+    <div class="container row" id="body-content"></div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="footer-copyright copyright">
+      <p>Copyright 2020 ©<b>MNurSeptian</b>. All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="content/style/materialize.min.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/nav.js"></script>
+  <script src="/register-sw.js"></script>
+</body>
+</html>

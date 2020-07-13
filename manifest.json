@@ -1,0 +1,16 @@
+{
+    "name": "Jogja Foodies",
+    "short_name": "Jogja Foods",
+    "description": "Aplikasi tentang makanan khas Jogja",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ff0000",
+    "theme_color": "#ff0000",
+    "icons": [
+        {
+            "src": "content/assets/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
